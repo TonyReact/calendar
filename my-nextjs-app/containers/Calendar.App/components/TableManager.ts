@@ -33,7 +33,7 @@ class TableManager {
 
     const sortedActiveTimes = Array.from(new Set(allActiveTimes)).sort();
 
-    const table: TableData = {};
+    // const table: TableData = {};
 
     processedData.forEach((item) => {
       const startTime = item.startTime;
